@@ -14,7 +14,7 @@ storm_vwt -n 2112 -a -5.0 -A 45.0
 storm_vwt -n 2212 -a -5.0 -A 45.0
 storm_vwt -n 2312 -a -5.0 -A 45.0
 storm_vwt -n 2412 -a -5.0 -A 45.0
-cd   Wind
+cd   speed
 echo 正在分配速率...
 ./speed
 rm   ../Storm-VWT/vxyz_init.wvp ../Storm-VWT/vxyz_RT.wvr
