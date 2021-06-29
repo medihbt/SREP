@@ -302,7 +302,7 @@ void  airProcessor(struct _input input){
 						xmax=molx;ymax=moly;
 					}for(int i=0;i<1024;i++){
 						if((airfoil[0][i].xyz[0]>=xmin)&&(airfoil[0][i].xyz[0]<=xmax)){
-							record();
+							record();//代码有误!!!!!!!!!
 						}
 					}
 				}
