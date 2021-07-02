@@ -21,6 +21,7 @@
 #define MAXSize  7680000
 
 //定义分子模式
+#define Unknown      0x0 //未知 
 #define Normal       0x1 //正常
 #define UnAvail      0x2 //分子不可用
 
@@ -37,5 +38,6 @@ int strtonuum(char* str, int bit){
 }
 
 #define rdsgn() (rand()%2==0?1:-1)
+#define linecnt(x) (lineK*x+lineB)
 
 #endif
