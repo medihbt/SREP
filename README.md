@@ -16,4 +16,6 @@
 
 不成熟的作品，望大佬们多多指正。
 
-<p align="right">2021.09.27 22.15</p>
+<p align="right">创建于2021年7月</p>
+<p align="right">第二次修改于2021.09.27</p>
+<p align="center"><strong>高考加油！！！</strong><p>
