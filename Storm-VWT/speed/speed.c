@@ -19,10 +19,8 @@ double airInitPoss[1601], airRTPoss[1601]  ;
 double inSpeed,   airSpeed = 0.0, airSpeed2;
 _int_64_t  molSizeInit = 0, molSizeRT = 0, molPerInit[1601], molPerRT[1601]; //请在64位Linux上编译!!!
 _int_64_t  molSizeCount=0, i0=0, i0_0=0, i1=0, i1_0=0, i2=0, i2_0=0 , airSpin_t;
-float speedOut=0.0, temprOut=0.0;
-int   airSpin[91];
-float i3=0.0;
-int   airCount = 0 ;
+float speedOut=0.0, temprOut=0.0, i3=0.0;
+int   airSpin[91], airCount = 0 ;
 
 int main() {
 	srand((unsigned)time(NULL));
@@ -55,7 +53,7 @@ int main() {
 	printf("正在分配速率...\n");
 	for(airCount=1;airCount<1601;airCount++){
 	    if(molPerInit[airCount]==0){
-	        break;//其实还有更好的算法。但我没时间了。
+	        break;
 	    }
 		float tempx=1.0/molPerInit[airCount];
 		for(_int_64_t i=0;i<molPerInit[airCount];i++){
