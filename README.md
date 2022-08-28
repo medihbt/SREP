@@ -1,21 +1,18 @@
-<h1 align="center">Storm Research 试验项目</h1>
+# Storm Research 试验场
 
-<p align="right">by Storm Research脑洞科研</p>
+<p align="right">—— by Medi H.B.T.与他的小伙伴们</p>
 
 ---
 
-研究性学习的代码。。。虽。迟。但。到。
+这是我的实验室，放着一些没啥卵用的试验项目。
 
-由于高考复习要紧，我就暂时不作详细介绍了。
+## Updates 上传与更新记录
 
-大概讲下我Post了什么东西上去：
-
-1. Storm-VWT虚拟风洞：一个基于粒子法的(Bug极多的)风洞仿真程序
-2. 与风洞相配套的空气分子速率分配器
-3. 准备写一个翼型绘制与预览器（高考后）
-
-不成熟的作品，望大佬们多多指正。
-
-<p align="right">创建于2021年7月</p>
-<p align="right">第二次修改于2021.09.27</p>
-<p align="center"><strong>高考加油！！！</strong><p>
+- 2021.07.01 Storm VWT虚拟风洞，由脑洞科研小组开发
+  - 编程语言: C语言
+  - 系统要求: bug太多了，没啥要求
+- 2022.08.28 Langton's Ant兰顿蚂蚁仿真程序
+  - 编程语言: C语言
+  - 系统要求: 安装了curses库的操作系统.
+    - Windows暂未找到编译的方法。
+    - Linux可用, 但须安装`libncursesw5-dev`库.
