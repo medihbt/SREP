@@ -1,4 +1,4 @@
-ltant:maltantin.c
+ltant:main.c
 	gcc main.c -o ltant -lncursesw
 
 clean:
