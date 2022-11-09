@@ -60,6 +60,10 @@ Matrix matrix_multiply(Matrix a, Matrix b)
     return ret;
 }
 
+/*示例.
+ *若要运行，请注释掉下面那行宏定义.*/
+#define main TEST_MAIN
+
 int main()
 {
     Matrix a = new_matrix(4, 1);
