@@ -11,7 +11,7 @@ typedef struct __mt
 /*二维动态数组难以实现, 转而用一维数组模拟二维数组*/
 #define Matrix_index(M, i, j) ((M).value[(i) * (M).width + (j)]) // M[i][j]
 #define Matrix_row(M, i) (&((M).value[(i) * (M).width]))         // M[i]
-2
+
 /*构造函数*/
 Matrix new_matrix(int height, int width)
 {
